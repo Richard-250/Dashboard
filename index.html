@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Figma</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="main-content">
+      <div class="aside">
+        <div class="personal">
+          <div class="person-info">
+            <div class="person">
+              <img src="./images/person.svg" style="width: 92px; height: 92px; margin-bottom: 15px" />
+            </div>
+            <div class="person-name">
+              <h4 class="name">Indica Watson</h4>
+              <p class="domain">Real Estate Builders</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="all-links">
+          <ul class="nav">
+            <li class="first-nav">
+              <a href="#" class="active padd one"><i class="material-icons" style="line-height: 10px">dashboard</i>
+                <span class="top">Dashboard</span></a>
+            </li>
+            <li>
+              <a href="#" class="active"><i class="fas fa-house"></i> Discover</a>
+            </li>
+            <li>
+              <a href="#" class="active message"><i class="fas fa-comment-dots"></i>
+                <span class="second">Inbox</span>
+                <div class="value">3</div>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="active"><i class="fas fa-wallet"></i> My Wallet</a>
+            </li>
+            <li>
+              <a href="#" class="active"><i class="fa fa-filter"></i> Analytics</a>
+            </li>
+            <li>
+              <a href="#" class="active padd notifications"><i class="material-icons">notifications</i>
+                <span class="third">Notifications</span>
+                <div class="value1">5</div>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="active padd"><i class="material-icons">settings</i> Settings</a>
+            </li>
+          </ul>
+
+          <ul class="other-nav">
+            <li>
+              <a href="#" class="active padd"><i class="material-icons">priority_high</i> Help & Support</a>
+            </li>
+            <li>
+              <a href="#" class="active padd log-out"><i class="material-icons">arrow_back</i> Log Out</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="menu-bar">
+
+        <div class="buy main">Buy</div>
+        <div class="sell">Sell</div>
+        <div class="rent">Rent</div>
+        <div class="compare">Compare</div>
+
+      </div>
+    </div>
+
+    <section class="home section">
+      <div class="container">
+        <div class="head-row">
+          <div class="over-view">
+            <div class="results">
+              <p>249 Results</p>
+            </div>
+            <div class="map">
+              <div class="map-view">
+                <p>Map View</p>
+              </div>
+              <div class="btn">
+                <div class="switch"></div>
+              </div>
+            </div>
+          </div>
+          <div class="inputs">
+            <div class="search">
+              <input class="searches" type="text" placeholder="Search Here....">
+              <div class="icon-search"><i class='fas fa-search'></i></div>
+            </div>
+            <div class="price">
+              <div class="div-price"> <input class="prices" type="text" placeholder="price"> <svg width="29" height="23"
+                  viewBox="0 0 29 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5.95455 22.1818V0.363635H7.35227V22.1818H5.95455ZM10.6591 6.90909C10.5568 6.04545 10.142 5.375 9.41477 4.89773C8.6875 4.42045 7.79545 4.18182 6.73864 4.18182C5.96591 4.18182 5.28977 4.30682 4.71023 4.55682C4.13636 4.80682 3.6875 5.15057 3.36364 5.58807C3.04545 6.02557 2.88636 6.52273 2.88636 7.07954C2.88636 7.54545 2.99716 7.94602 3.21875 8.28125C3.44602 8.6108 3.7358 8.88636 4.08807 9.10795C4.44034 9.32386 4.80966 9.50284 5.19602 9.64489C5.58239 9.78125 5.9375 9.89205 6.26136 9.97727L8.03409 10.4545C8.48864 10.5739 8.99432 10.7386 9.55114 10.9489C10.1136 11.1591 10.6506 11.446 11.1619 11.8097C11.679 12.1676 12.1051 12.6278 12.4403 13.1903C12.7756 13.7528 12.9432 14.4432 12.9432 15.2614C12.9432 16.2045 12.696 17.0568 12.2017 17.8182C11.7131 18.5795 10.9972 19.1847 10.054 19.6335C9.11648 20.0824 7.97727 20.3068 6.63636 20.3068C5.38636 20.3068 4.30398 20.1051 3.3892 19.7017C2.48011 19.2983 1.7642 18.7358 1.24148 18.0142C0.724432 17.2926 0.431818 16.4545 0.363636 15.5H2.54545C2.60227 16.1591 2.82386 16.7045 3.21023 17.1364C3.60227 17.5625 4.09659 17.8807 4.69318 18.0909C5.29545 18.2955 5.94318 18.3977 6.63636 18.3977C7.44318 18.3977 8.16761 18.267 8.80966 18.0057C9.4517 17.7386 9.96023 17.3693 10.3352 16.8977C10.7102 16.4205 10.8977 15.8636 10.8977 15.2273C10.8977 14.6477 10.7358 14.1761 10.4119 13.8125C10.0881 13.4489 9.66193 13.1534 9.13352 12.9261C8.60511 12.6989 8.03409 12.5 7.42045 12.3295L5.27273 11.7159C3.90909 11.3239 2.82955 10.7642 2.03409 10.0369C1.23864 9.30966 0.840909 8.35795 0.840909 7.18182C0.840909 6.20454 1.10511 5.35227 1.63352 4.625C2.16761 3.89205 2.88352 3.32386 3.78125 2.92045C4.68466 2.51136 5.69318 2.30682 6.80682 2.30682C7.93182 2.30682 8.93182 2.50852 9.80682 2.91193C10.6818 3.30966 11.375 3.85511 11.8864 4.54829C12.4034 5.24148 12.6761 6.02841 12.7045 6.90909H10.6591ZM21.2592 22.1818V0.363635H22.657V22.1818H21.2592ZM25.9638 6.90909C25.8615 6.04545 25.4467 5.375 24.7195 4.89773C23.9922 4.42045 23.1001 4.18182 22.0433 4.18182C21.2706 4.18182 20.5945 4.30682 20.0149 4.55682C19.4411 4.80682 18.9922 5.15057 18.6683 5.58807C18.3501 6.02557 18.1911 6.52273 18.1911 7.07954C18.1911 7.54545 18.3018 7.94602 18.5234 8.28125C18.7507 8.6108 19.0405 8.88636 19.3928 9.10795C19.745 9.32386 20.1143 9.50284 20.5007 9.64489C20.8871 9.78125 21.2422 9.89205 21.5661 9.97727L23.3388 10.4545C23.7933 10.5739 24.299 10.7386 24.8558 10.9489C25.4183 11.1591 25.9553 11.446 26.4666 11.8097C26.9837 12.1676 27.4098 12.6278 27.745 13.1903C28.0803 13.7528 28.2479 14.4432 28.2479 15.2614C28.2479 16.2045 28.0007 17.0568 27.5064 17.8182C27.0178 18.5795 26.3018 19.1847 25.3587 19.6335C24.4212 20.0824 23.282 20.3068 21.9411 20.3068C20.6911 20.3068 19.6087 20.1051 18.6939 19.7017C17.7848 19.2983 17.0689 18.7358 16.5462 18.0142C16.0291 17.2926 15.7365 16.4545 15.6683 15.5H17.8501C17.907 16.1591 18.1286 16.7045 18.5149 17.1364C18.907 17.5625 19.4013 17.8807 19.9979 18.0909C20.6001 18.2955 21.2479 18.3977 21.9411 18.3977C22.7479 18.3977 23.4723 18.267 24.1143 18.0057C24.7564 17.7386 25.2649 17.3693 25.6399 16.8977C26.0149 16.4205 26.2024 15.8636 26.2024 15.2273C26.2024 14.6477 26.0405 14.1761 25.7166 13.8125C25.3928 13.4489 24.9666 13.1534 24.4382 12.9261C23.9098 12.6989 23.3388 12.5 22.7251 12.3295L20.5774 11.7159C19.2138 11.3239 18.1342 10.7642 17.3388 10.0369C16.5433 9.30966 16.1456 8.35795 16.1456 7.18182C16.1456 6.20454 16.4098 5.35227 16.9382 4.625C17.4723 3.89205 18.1882 3.32386 19.0859 2.92045C19.9893 2.51136 20.9979 2.30682 22.1115 2.30682C23.2365 2.30682 24.2365 2.50852 25.1115 2.91193C25.9865 3.30966 26.6797 3.85511 27.1911 4.54829C27.7081 5.24148 27.9808 6.02841 28.0092 6.90909H25.9638Z"
+                    fill="#FF5B19" />
+                </svg>
+
+
+              </div>
+            </div>
+            <div class="bed">
+              <div class="div-bed"><input class="beds" type="text" placeholder=" 2-4 Beds"> <svg width="24" height="24"
+                  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 13.172L16.95 8.22198L18.364 9.63598L12 16L5.63601 9.63598L7.05001 8.22198L12 13.172Z"
+                    fill="grey" />
+                </svg>
+              </div>
+            </div>
+            <div class="property">
+              <div class="div-property"><input class="properties" type="text" placeholder="Property Type"> <svg
+                  width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M7.00001 5.17198L11.95 0.221985L13.364 1.63598L7.00001 7.99998L0.636013 1.63598L2.05001 0.221984L7.00001 5.17198Z"
+                    fill="#B7BFC5" />
+                </svg>
+
+              </div>
+            </div>
+            <div class="filter">
+              <div class="div-filter"><input class="filters " type="text" placeholder="Filters"> <svg width="24"
+                  height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3 4L10 4" stroke="#B7BFC5" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M14 4L21 4" stroke="#B7BFC5" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M3 12L12 12" stroke="#B7BFC5" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M16 12L21 12" stroke="#B7BFC5" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M3 20L8 20" stroke="#B7BFC5" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M12 20L21 20" stroke="#B7BFC5" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M10 1L10 7" stroke="#B7BFC5" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M16 9L16 15" stroke="#B7BFC5" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M8 17L8 23" stroke="#B7BFC5" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="details">
+          <div class="products">
+            <div class="options">
+              <div class="title">
+                <p>Recommended</p>
+              </div>
+              <div class="titles">
+                <p>Popular</p>
+              </div>
+              <div class="titles">
+                <p>Nearest</p>
+              </div>
+            </div>
+            <div class="img-contains">
+              <div class="houses">
+                <div class="house-1">
+                  <div><img src="./images/Image.svg"></div>
+                  <div class="location">
+                    <h4>The Stables</h4>
+                    <h6>$ 9540.99</h6>
+                    <div class="street"><svg width="10" height="14" viewBox="0 0 10 14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M5.00004 0.333333C2.42004 0.333333 0.333374 2.42 0.333374 5C0.333374 8.5 5.00004 13.6667 5.00004 13.6667C5.00004 13.6667 9.66671 8.5 9.66671 5C9.66671 2.42 7.58004 0.333333 5.00004 0.333333ZM5.00004 6.66667C4.08004 6.66667 3.33338 5.92 3.33338 5C3.33338 4.08 4.08004 3.33333 5.00004 3.33333C5.92004 3.33333 6.66671 4.08 6.66671 5C6.66671 5.92 5.92004 6.66667 5.00004 6.66667Z"
+                          fill="#7F7F7F" />
+                      </svg>
+                      <p>Terry Lane,Golden CO 80403</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="house-1">
+                  <div><img src="./images/Image-2.svg"></div>
+                  <div class="location">
+                    <h4>The Old Rectory</h4>
+                    <h6>$ 5999.99</h6>
+                    <div class="street"><svg width="10" height="14" viewBox="0 0 10 14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M5.00004 0.333333C2.42004 0.333333 0.333374 2.42 0.333374 5C0.333374 8.5 5.00004 13.6667 5.00004 13.6667C5.00004 13.6667 9.66671 8.5 9.66671 5C9.66671 2.42 7.58004 0.333333 5.00004 0.333333ZM5.00004 6.66667C4.08004 6.66667 3.33338 5.92 3.33338 5C3.33338 4.08 4.08004 3.33333 5.00004 3.33333C5.92004 3.33333 6.66671 4.08 6.66671 5C6.66671 5.92 5.92004 6.66667 5.00004 6.66667Z"
+                          fill="#7F7F7F" />
+                      </svg>
+                      <p>Yule Street,Arvada CO 80007</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="house-1">
+                  <div><img src="./images/Image-3.svg"></div>
+                  <div class="location">
+                    <h4>Holly Cottage</h4>
+                    <h6>$ 2998.99</h6>
+                    <div class="street"><svg width="10" height="14" viewBox="0 0 10 14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M5.00004 0.333333C2.42004 0.333333 0.333374 2.42 0.333374 5C0.333374 8.5 5.00004 13.6667 5.00004 13.6667C5.00004 13.6667 9.66671 8.5 9.66671 5C9.66671 2.42 7.58004 0.333333 5.00004 0.333333ZM5.00004 6.66667C4.08004 6.66667 3.33338 5.92 3.33338 5C3.33338 4.08 4.08004 3.33333 5.00004 3.33333C5.92004 3.33333 6.66671 4.08 6.66671 5C6.66671 5.92 5.92004 6.66667 5.00004 6.66667Z"
+                          fill="#7F7F7F" />
+                      </svg>
+                      <p>Alice Court,Annapolis MD 21401</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="house-1">
+                  <div><img src="./images/Image-4.svg"></div>
+                  <div class="location">
+                    <h4>Meadow View</h4>
+                    <h6>$ 9540.99</h6>
+                    <div class="street"><svg width="10" height="14" viewBox="0 0 10 14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M5.00004 0.333333C2.42004 0.333333 0.333374 2.42 0.333374 5C0.333374 8.5 5.00004 13.6667 5.00004 13.6667C5.00004 13.6667 9.66671 8.5 9.66671 5C9.66671 2.42 7.58004 0.333333 5.00004 0.333333ZM5.00004 6.66667C4.08004 6.66667 3.33338 5.92 3.33338 5C3.33338 4.08 4.08004 3.33333 5.00004 3.33333C5.92004 3.33333 6.66671 4.08 6.66671 5C6.66671 5.92 5.92004 6.66667 5.00004 6.66667Z"
+                          fill="#7F7F7F" />
+                      </svg>
+                      <p>Doane street,Fremont CA 94538</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="house-1">
+                  <div><img src="./images/Image-5.svg"></div>
+                  <div class="location">
+                    <h4>The Stables</h4>
+                    <h6>$ 9540.99</h6>
+                    <div class="street"><svg width="10" height="14" viewBox="0 0 10 14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M5.00004 0.333333C2.42004 0.333333 0.333374 2.42 0.333374 5C0.333374 8.5 5.00004 13.6667 5.00004 13.6667C5.00004 13.6667 9.66671 8.5 9.66671 5C9.66671 2.42 7.58004 0.333333 5.00004 0.333333ZM5.00004 6.66667C4.08004 6.66667 3.33338 5.92 3.33338 5C3.33338 4.08 4.08004 3.33333 5.00004 3.33333C5.92004 3.33333 6.66671 4.08 6.66671 5C6.66671 5.92 5.92004 6.66667 5.00004 6.66667Z"
+                          fill="#7F7F7F" />
+                      </svg>
+                      <p>Yule Street,Arvada CO 80007</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="house-1">
+                  <div><img src="./images/Image-6.svg"></div>
+                  <div class="location">
+                    <h4>The Stables</h4>
+                    <h6>$ 9540.99</h6>
+                    <div class="street"><svg width="10" height="14" viewBox="0 0 10 14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M5.00004 0.333333C2.42004 0.333333 0.333374 2.42 0.333374 5C0.333374 8.5 5.00004 13.6667 5.00004 13.6667C5.00004 13.6667 9.66671 8.5 9.66671 5C9.66671 2.42 7.58004 0.333333 5.00004 0.333333ZM5.00004 6.66667C4.08004 6.66667 3.33338 5.92 3.33338 5C3.33338 4.08 4.08004 3.33333 5.00004 3.33333C5.92004 3.33333 6.66671 4.08 6.66671 5C6.66671 5.92 5.92004 6.66667 5.00004 6.66667Z"
+                          fill="#7F7F7F" />
+                      </svg>
+                      <p>Terry Lane,Golden CO 80403</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="house-info">
+              <div class="house-detail">
+                <div class="house"><img src="./images/BG.svg"></div>
+                <div class="house-amount">
+                  <h1>$32,000/ year</h1>
+                  <div class="location-icon"><svg width="10" height="14" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.00004 0.333333C2.42004 0.333333 0.333374 2.42 0.333374 5C0.333374 8.5 5.00004 13.6667 5.00004 13.6667C5.00004 13.6667 9.66671 8.5 9.66671 5C9.66671 2.42 7.58004 0.333333 5.00004 0.333333ZM5.00004 6.66667C4.08004 6.66667 3.33338 5.92 3.33338 5C3.33338 4.08 4.08004 3.33333 5.00004 3.33333C5.92004 3.33333 6.66671 4.08 6.66671 5C6.66671 5.92 5.92004 6.66667 5.00004 6.66667Z" fill="#7F7F7F"/>
+                    </svg>
+                    <p>Doane street,Fremont CA 94538</p></div>
+                  <div></div>
+                  
+                </div>
+                <div class="sign"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_705_194)">
+                  <path d="M17 3H7C5.9 3 5 3.9 5 5V21L12 18L19 21V5C19 3.9 18.1 3 17 3ZM17 18L12 15.82L7 18V5H17V18Z" fill="#FF5B19"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_705_194">
+                  <rect width="24" height="24" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="accounts">
+            <div class="allign">
+              <h2>Recent Messages</h2><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M7.33341 8.00001C7.33341 8.3682 7.63189 8.66667 8.00008 8.66667C8.36827 8.66667 8.66675 8.3682 8.66675 8.00001C8.66675 7.63182 8.36827 7.33334 8.00008 7.33334C7.63189 7.33334 7.33341 7.63182 7.33341 8.00001Z"
+                  stroke="#7F7F7F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M7.33341 12.6667C7.33341 13.0349 7.63189 13.3333 8.00008 13.3333C8.36827 13.3333 8.66675 13.0349 8.66675 12.6667C8.66675 12.2985 8.36827 12 8.00008 12C7.63189 12 7.33341 12.2985 7.33341 12.6667Z"
+                  stroke="#7F7F7F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M7.33341 3.33334C7.33341 3.70153 7.63189 4.00001 8.00008 4.00001C8.36827 4.00001 8.66675 3.70153 8.66675 3.33334C8.66675 2.96515 8.36827 2.66667 8.00008 2.66667C7.63189 2.66667 7.33341 2.96515 7.33341 3.33334Z"
+                  stroke="#7F7F7F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="peoples">
+              <div class="border-bottom">
+                <div class="image-content">
+                  <div><img src="./images/mugisha.svg"></div>
+                  <div class="content">
+                    <h4>Jams Benny</h4>
+                    <p>Hey,Let me know if you're still available...</p>
+                  </div>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <div class="image-content">
+                  <div><img src="./images/mugabo.svg"></div>
+                  <div class="content">
+                    <h4>William Chynita</h4>
+                    <p>Okay thanks</p>
+                  </div>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <div class="image-content">
+                  <div><img src="./images/munana.svg"></div>
+                  <div class="content">
+                    <h4>Henry David</h4>
+                    <p>Alright i'll get back to you ASAP</p>
+                  </div>
+                </div>
+              </div>
+              
+                <div class="image-content">
+                  <div><img src="./images/alice.svg"></div>
+                  <div class="content">
+                    <h4>Charlotte Flair</h4>
+                    <p>Sounds good buddy</p>
+                  </div>
+                </div>
+              
+            </div>
+            <div class="google-map">
+              <div class="allign view">
+                <h2>Map View</h2><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M7.33341 8.00001C7.33341 8.3682 7.63189 8.66667 8.00008 8.66667C8.36827 8.66667 8.66675 8.3682 8.66675 8.00001C8.66675 7.63182 8.36827 7.33334 8.00008 7.33334C7.63189 7.33334 7.33341 7.63182 7.33341 8.00001Z"
+                    stroke="#7F7F7F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M7.33341 12.6667C7.33341 13.0349 7.63189 13.3333 8.00008 13.3333C8.36827 13.3333 8.66675 13.0349 8.66675 12.6667C8.66675 12.2985 8.36827 12 8.00008 12C7.63189 12 7.33341 12.2985 7.33341 12.6667Z"
+                    stroke="#7F7F7F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M7.33341 3.33334C7.33341 3.70153 7.63189 4.00001 8.00008 4.00001C8.36827 4.00001 8.66675 3.70153 8.66675 3.33334C8.66675 2.96515 8.36827 2.66667 8.00008 2.66667C7.63189 2.66667 7.33341 2.96515 7.33341 3.33334Z"
+                    stroke="#7F7F7F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </div>
+              
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1329.0068050555112!2d30.22143138541121!3d-1.9782881934686534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2srw!4v1734458077868!5m2!1sen!2srw"
+                  width="308" height="308" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  </div>
+</body>
+
+</html>
